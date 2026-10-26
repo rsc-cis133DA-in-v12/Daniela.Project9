@@ -1,0 +1,175 @@
+/** 
+    Author: Daniela Barragan-Cortazar dan2465350
+    Course: CIS133DA
+    Lesson: 9
+**/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ddd;
+    margin-top: 50px;
+}
+
+/** Header Styles **/
+header {
+    background: black url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+
+/** Navigation Bar Styles **/
+
+nav ul {
+    list-style-type: none;
+    background-color: #2d3437;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #135367;
+    color: #ffffff;
+}
+
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav .right {
+    float: right;
+    background-color: orange;
+    color: black;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/** Main Styles **/
+main {
+    padding: 20px;
+    width: 900px;
+    box-sizing: border-box;/* Table Styles */
+/* -------------------------------------------------------------------------- */
+
+/* Step 4: Style the table */
+table {
+    border-collapse: collapse; /* Collapse the border */
+    width: 100%;               /* Adjust the width to be 100% of the container */
+}
+
+/* Step 5: Style all table headers (th) and table cells (td) */
+th, td {
+    border: 1px solid #333333; /* Thin solid dark border on all sides */
+    background-color: #ffffff; /* White background color */
+    padding: 5px;              /* Apply 5px of padding on all sides */
+}
+
+/* Step 6: Style the table header to apply additional styling */
+th {
+    background-color: #333333; /* Dark background color */
+    color: #ffffff;            /* Text color to white */
+    padding: 10px;             /* Apply 10px of padding on all sides */
+}
+
+/* Step 7: Style the top table headers (Column headers) */
+th[scope="col"] {
+    border-bottom-width: medium; /* Adjust bottom border width to be medium */
+}
+
+/* Step 8: Style the left table headers (Row headers) */
+th[scope="row"] {
+    border-right-width: medium;  /* Adjust right border width to be medium */
+}
+
+
+/* Form Styles */
+/* -------------------------------------------------------------------------- */
+
+/* Step 10: Style the form */
+form {
+    border: 1px solid #333333; /* Apply a thin solid dark border on all sides */
+    padding: 20px;             /* Apply 20px of padding to all sides */
+}
+
+/* Step 11: Style all field labels */
+form label {
+    display: block;            /* Display as block elements */
+    font-weight: bold;         /* Adjust the font weight to bold */
+    padding: 5px;              /* Apply 5px of padding to all sides */
+}
+
+/* Step 12: Style the First Name, Last Name, Email, and Phone text input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;               /* Change the width so it spans 100% of the layout */
+    box-sizing: border-box;    /* Box-sizing method to subtract borders/padding from width */
+}
+
+/* Step 13: Style the textarea */
+form textarea {
+    width: 100%;               /* Change the width so it spans 100% of the layout */
+    height: 200px;             /* Change the height to 200px */
+    box-sizing: border-box;    /* Box-sizing method so borders/padding are subtracted */
+    margin-bottom: 10px;       /* Add a bottom margin of 10px */
+}
+
+/* Step 14: Style the form buttons */
+form input[type="submit"],
+form input[type="reset"] {
+    margin: 10px 5px;          /* Top/bottom margin of 10px and left/right margin of 5px */
+    padding: 5px 10px;         /* 5px padding top/bottom and 10px padding left/right */
+}
+
+/* Step 15: Create a selector to apply a hover effect to the form buttons */
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #111111; /* Add a dark background color */
+    color: #ffffff;            /* Adjust the text color to your choice (White) */
+}
+
+    display: block;
+    margin: 0 auto;
+}
+
+/** Footer Styles **/
+footer {
+    background-color: #2d3437;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
